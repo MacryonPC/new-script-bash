@@ -8,6 +8,7 @@ nc='\033[0m' #
 main (){
 	echo -e "${red}hello world "
 	echo -e "I have a new water"
+	echo -e "what you want? "
 
 
 }
