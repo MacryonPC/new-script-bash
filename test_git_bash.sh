@@ -7,11 +7,9 @@ nc='\033[0m' #
 
 main (){
 	echo -e "${red}hello world${nc} "
-	echo -e "${red} how your at home ${nc}"
-	echo -e "добавил авторизацию"
+	echo -e "${yellow}My current working directory is: ${nc}"
+	pwd 
 	
-
-
 }
 #запуск приложения 
 main
