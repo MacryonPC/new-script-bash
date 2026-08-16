@@ -6,9 +6,10 @@ nc='\033[0m' #
 
 
 main (){
-	echo -e "${red}hello world${nc} "
-	echo -e "${yellow}My current working directory is: ${nc}"
-	pwd 
+ 	myname="Maks"
+ 	myage="40"
+	echo -e "${red}hello, my name is $myname ${nc} "
+	echo -e "${yellow} I'm $myage years old. ${nc}"
 	
 }
 #запуск приложения 
