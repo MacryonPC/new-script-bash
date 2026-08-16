@@ -7,7 +7,7 @@ nc='\033[0m' #
 
 main (){
 	echo -e "${red}hello world${nc} "
-
+	echo -e "${red} how your at home ${nc}"
 	
 
 
